@@ -335,6 +335,9 @@
   &[data-poem-slug='five-americans-iv'] {
     @include indent.spacing(2, 0.1rem, 0.09rem);
   }
+  &[data-poem-slug='one-iii'] {
+    @include indent.spacing(8, 0.22rem, 0.215rem);
+  }
   &[data-poem-slug='one-xl'] {
     writing-mode: vertical-rl;
     .stanza {
@@ -343,5 +346,8 @@
     .line {
       padding: 0;
     }
+  }
+  &[data-poem-slug='five-ii'] {
+    @include indent.spacing(8, 0.14rem, 0.13rem);
   }
 }
